@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+<b id="firstValue">13</b>
+<b id="secondValue">1</b>
+<b id="thirdValue">1000</b>
+<button type="button" onclick="addTheValue()">Try it</button>
+<script>
+      function addTheValue() {
+      var fValue = document.getElementById("firstValue");
+      var gValue = document.getElementById("secondValue");
+      firstValue.innerHTML = parseInt(fValue.innerHTML) +
+      parseInt("1");
+      secondValue.innerHTML=parseInt(thirdValue.innerHTML)*parseInt(firstValue.innerHTML);
+         
+         
+      }
+   </script>
+
+
+</body>
+</html> 
